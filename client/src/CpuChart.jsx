@@ -9,7 +9,6 @@ import {
   Legend,
 } from 'chart.js';
 
-// Register the necessary chart components
 ChartJS.register(LineElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 export default function CpuChart({ data }) {
