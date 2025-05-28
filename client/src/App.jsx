@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import CpuChart from './CpuChart';
+import CpuChart from './components/CpuChart';
 
 function App() {
   const now = new Date();
